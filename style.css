@@ -2,13 +2,64 @@ body {
     background-image: linear-gradient(to right, rgb(253, 190, 190) , rgb(207, 207, 113));
 }
 .photo {
-    width:600px ;  
+    width:600px ; 
+    left: 200px ; 
     
    
 }
-.gamebutton{
-    width:350px ; 
-    height: 150px;
-    margin-left: 1000px;
-    margin-bottom: 100px;
-}
+
+.gamebutton:link, .gamebutton:visited {
+    width:260px ; 
+    height: 130px;
+    background-color: #d88d1b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    position: absolute;
+    top: 250px;
+    left: 1400px;
+  }
+
+  .gitbutton:link, .gitbutton:visited{
+    width:260px ; 
+    height: 130px;
+    background-color: #d88d1b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 500px;
+    left: 1400px;
+  }
+
+  .pollbutton:link, .pollbutton:visited{
+    width:260px ; 
+    height: 130px;
+    background-color: #d88d1b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 750px;
+    left: 1400px;
+  }
+
+/* font-family: verdana;
+  font-size: 20px;
+  border: 15px solid green; 
+   padding: 50px;
+  margin: 20px;
+  
+   border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+  background: yellow;*/
