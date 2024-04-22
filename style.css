@@ -2,7 +2,13 @@ body {
     background-image: linear-gradient(to right, rgb(253, 190, 190) , rgb(207, 207, 113));
 }
 .photo {
-    width:700px ;  
+    width:600px ;  
     
    
+}
+.gamebutton{
+    width:350px ; 
+    height: 150px;
+    margin-left: 1000px;
+    margin-bottom: 100px;
 }
