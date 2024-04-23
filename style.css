@@ -11,6 +11,12 @@ body {
     
    
 }
+.name {
+  font-size: 35px;
+  color: white;
+  margin-left: 585px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .gamebutton:link, .gamebutton:visited {
     width:300px ; 
@@ -18,9 +24,10 @@ body {
     background-color: #404040;
     color: white;
     padding: 14px 25px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 250px;
     left: 1400px;
@@ -37,7 +44,9 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 500px;
     left: 1400px;
@@ -53,7 +62,9 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 750px;
     left: 1400px;
