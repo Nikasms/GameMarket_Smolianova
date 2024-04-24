@@ -11,6 +11,7 @@ body {
     
    
 }
+<<<<<<< Updated upstream
 .name {
   font-size: 35px;
   color: white;
@@ -88,3 +89,11 @@ body {
   outline-style: solid;
   outline-color: red;
   background: yellow;*/
+=======
+.gamebutton{
+    width:350px ; 
+    height: 150px;
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+>>>>>>> Stashed changes
