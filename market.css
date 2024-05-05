@@ -65,7 +65,7 @@ content {
 
 /* блок зображення товару */
 .item-image {
-    height: 200px;
+    height: -200px;
 }
 
 /* блок з оплатою частинами */
@@ -102,6 +102,10 @@ content {
 
 .price div :first-child sup {
     font-size: 12px;
+}
+
+.price div:last-child {
+    font-size: 24px;
 }
 .price div:last-child sup {
     font-size: 14px;
