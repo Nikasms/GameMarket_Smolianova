@@ -1,16 +1,16 @@
 
 //перевірка підключеного файлу скриптів
-console.log('Перевірка підключеного файлу скрипту market.js')
+console.log('перевірка підключеного файлу скрипту market.js')
 
-//Отримання елементу з ідентифікатором items
+//отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items")
 
-//Вивід знайдкного елементу
+//вивід знайдкного елементу
 console.log(itemsDiv)
 
-//Перевірка існування знайденого блоку
+//перевірка існування знайденого блоку
 if (itemsDiv) {
-    //Вивід знайденого елементу
+    //вивід знайденого елементу
     console.log(itemsDiv)
 
     //Вивід значення поля знайденого елементу
@@ -29,12 +29,12 @@ if (itemsDiv) {
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
-    for(let i = 0; i < 50; i++) {
+    for(let i = 0; i < 100; i++) {
         itemsDiv.innerHTML += '<div class="item"></div>'
         console.log('item')
     }
 
 } else {
-    //Вивід знайденого елементу
-    console.log('Блок товарів не знайдено')
+    //вивід знайденого елементу
+    console.log('блок товарів не знайдено')
 }
