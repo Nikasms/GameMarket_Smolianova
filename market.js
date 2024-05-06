@@ -1,37 +1,40 @@
 
-// перевірка підключеного файлу скриптів
-console.log('перевірка підключеногго файлу скриптів market.js')
+//перевірка підключеного файлу скриптів
+console.log('Перевірка підключеного файлу скрипту market.js')
 
-//  отримання елементу з ідентифікатором items
-let itemsDiv = document.getElementById('items');
+//Отримання елементу з ідентифікатором items
+let itemsDiv = document.getElementById("items")
 
+//Вивід знайдкного елементу
+console.log(itemsDiv)
 
-//перевірка існування знайденого блоку
+//Перевірка існування знайденого блоку
 if (itemsDiv) {
-    //вивід знайденого елементу
+    //Вивід знайденого елементу
     console.log(itemsDiv)
-    // // вивід значення поля знайденого елементу
-    // console.log('поле classList:', itemsDiv.classList )
-    // console.log('поле id:', itemsDiv.id)
-    // console.log('поле clientWidth', itemsDiv.clientWidth)
-    // console.log('поле innerHTML:', itemsDiv.innerHTML)
 
-    // //додавання тексту в блок
-    // itemsDiv.innerText = ' перший програмно доданий текст '
-    // itemsDiv.innerText += ' другий програмно доданий текст '
-    // додавання відформатованого HTML коду в блок
-    // itemsDiv.innerHTML += '<div> class = "item"</div>'
-    // itemsDiv.innerHTML += '<div> class = "item"</div>'
-    // itemsDiv.innerHTML += '<div> class = "item"</div>'
-    // itemsDiv.innerHTML += '<div> class = "item"</div>'
-    for (let i = 0; i < 100; i++) {
-        itemsDiv.innerHTML += '<di class = "items"></div>'
+    //Вивід значення поля знайденого елементу
+    // console.log('Поле classList:', itemsDiv.classList)
+    // console.log('Поле id:', itemsDiv.id)
+    // console.log('Поле clientWidth:', itemsDiv.clientWidth)
+    // console.log('Поле innerHTML:', itemsDiv.innerHTML)
+
+    //Додавання тексту в блок
+    // itemsDiv.innerHTML = 'Перший Програмно доданий текст'
+    // // itemsDiv.innerHTML = 'Другий Програмно доданий текст'
+    // itemsDiv.innerHTML += 'Другий Програмно доданий текст'
+    //Додавання відформатованого HTML коду в блок
+    // itemsDiv.innerHTML = '<div  class = item></div>'
+    // itemsDiv.innerHTML += '<div  class = "item"></div>'
+    // itemsDiv.innerHTML += '<div  class = "item"></div>'
+    // itemsDiv.innerHTML += '<div  class = "item"></div>'
+    // itemsDiv.innerHTML += '<div  class = "item"></div>'
+    for(let i = 0; i < 50; i++) {
+        itemsDiv.innerHTML += '<div class="item"></div>'
+        console.log('item')
     }
 
-
-
-
 } else {
-    // вивід повідомлення про не знайдений блок
-    console.log( 'блок товарів не знайдено')
+    //Вивід знайденого елементу
+    console.log('Блок товарів не знайдено')
 }
