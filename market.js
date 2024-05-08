@@ -11,7 +11,7 @@ console.log(itemsDiv)
 //перевірка існування знайденого блоку
 if (itemsDiv) {
     //вивід знайденого елементу
-    console.log(itemsDiv)
+    // console.log(itemsDiv)
 
     //Вивід значення поля знайденого елементу
     // console.log('Поле classList:', itemsDiv.classList)
@@ -29,12 +29,21 @@ if (itemsDiv) {
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
     // itemsDiv.innerHTML += '<div  class = "item"></div>'
-    for(let i = 0; i < 100; i++) {
-        itemsDiv.innerHTML += '<div class="item"></div>'
-        console.log('item')
-    }
+    // for(let i = 0; i < 100; i++) {
+    //     itemsDiv.innerHTML += '<div class="item"></div>'
+    //     console.log('item')
+    // }
 
 } else {
     //вивід знайденого елементу
     console.log('блок товарів не знайдено')
 }
+let itemsArray = ['','','','']
+
+//виведення в консоль масиву
+console.log(itemsArray)
+for(let i = 0; i < 100; i++) {
+    //     itemsDiv.innerHTML += '<div class="item"></div>'
+    //     console.log('item')
+    // }
+
