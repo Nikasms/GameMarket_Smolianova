@@ -45,5 +45,5 @@ console.log(itemsArray)
 for(let i = 0; i < 100; i++) {
     //     itemsDiv.innerHTML += '<div class="item"></div>'
     //     console.log('item')
-    // }
+    }
 
