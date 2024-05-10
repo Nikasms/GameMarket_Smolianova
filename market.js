@@ -22,8 +22,8 @@ if (itemsDiv) {
         itemsDiv.innerHTML += 
         `
         <div class = "item">
-        //  <h2>Товар№${index}</h2>
-        //  <p>${item}</>
+        <h2>товар№${index}</h2>
+        <p>${item}</p>
         </div>
         `
 })
