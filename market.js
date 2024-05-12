@@ -15,13 +15,15 @@ let itemsDiv = document.getElementById("items")
 //перевірка існування знайденого блоку
 if (itemsDiv) {
     //створення блоків по кількості елементів 
-    itemsArray.forEach((item) =>{
+    itemsArray.forEach((item, index) =>{
         // console.log(item)
         // itemsDiv.innerText += item
         //спеціальний апостроф - англійська розкладка - біля кнопки 1 
         itemsDiv.innerHTML += 
         `
         <div class = "item">
+        <h2>Товар №${index+1} з ${itemsArray.length}</h2>
+            <p>${item}</p>
         
         </div>
         `
@@ -71,7 +73,7 @@ if (itemsDiv) {
 // itemsArray = itemsArray.sort()
 
 //виведення в консоль масиву
-    console.log(itemsArray)
+    // console.log(itemsArray)
 
 //вииведення в консоль номерів та значень елементів масиву
 // for(let i = 0; i < itemsArray.length; i++) {
