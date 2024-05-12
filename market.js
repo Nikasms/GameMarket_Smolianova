@@ -22,12 +22,12 @@ if (itemsDiv) {
         itemsDiv.innerHTML += 
         `
         <div class = "item">
-        <h2>товар№${index}</h2>
-        <p>${item}</p>
+        
         </div>
         `
 })
-
+// <h2>товар№${index}</h2>
+        // <p>${item}</p>
 
     
     //вивід знайденого елементу
