@@ -10,102 +10,45 @@
 // ]
 
     let itemsArray = [
-        {
-            firstName: "Віталій",
-            lastName: "Шатківський",
-            age: 43,
-            subject: "CS",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
-        },
-        {
-            firstName: "Наталія",
-            lastName: "Венцель",
-            age: 18,
-            subject: "Адміністратор",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
-        },
-        {
-            firstName: "Наталія",
-            lastName: "Кучер",
-            age: 18,
-            subject: "Фізика",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg", 
-            url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
-        },
-        {
-            firstName: "Ірина",
-            lastName: "Боровська-Карандюк",
-            age: 18,
-            subject: "Українська мова, література, зарубіжна література",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-        },
-        {
-            firstName: "Анжела",
-            lastName: "Лознюк",
-            age: 18,
-            subject: "Українська мова, література",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
-        },
-        {
-            firstName: "Тарас",
-            lastName: "Савінков",
-            age: 18,
-            subject: "Англійська мова",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
-        },
-        {
-            firstName: "Ірина",
-            lastName: "Глібко",
-            age: 18,
-            subject: "Англійська мова",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/hlibko-iryna-anatoliyivna/",
-        },
-        {
-            firstName: "Олена",
-            lastName: "Геча",
-            age: 18,
-            subject: "Історія",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
-        },
-        {
-            firstName: "Василь",
-            lastName: "Бабій",
-            age: 18,
-            subject: "Фізкультура",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-        },
-        {
-            firstName: "Вікторія",
-            lastName: "Нелипович",
-            age: 18,
-            subject: "Математика",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
-        },
-        {
-            firstName: "Олена",
-            lastName: "Василівна",
-            age: 18,
-            subject: "Математика",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/chuhunova-olena-vasylivna-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/chuhunova-o-v/",
-        },
-        {
-            firstName: "Іван",
-            lastName: "Севрук",
-            age: 18,
-            subject: "Захист України",
-            photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
-            url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
-        },
+       {
+        title: "Мотокоса 43",
+        image: "https://hotline.ua/img/tx/319/3193450945.jpg" ,
+        mono: 6,
+        pb: 8,
+        prise_standart: 5499,
+        prise_discount: 4497,
+        prise_coupon: 4395,
+       } ,
+       {
+        title: "Електричний тример 110",
+        image: "https://instrument.in.ua/content/images/44/480x480l50nn0/trimmer-elektricheskiy-dnipro-m-120-59521615082483.jpg" ,
+        mono: 6,
+        pb: 8,
+        prise_standart: 4497,
+        prise_discount: 3498,
+        prise_coupon: 3396,
+       },
+
+       {
+        title: "Електрична газонокосарка 32",
+        image: "https://images.prom.ua/3772468812_w640_h640_gazonokosilka-elektricheskaya-dnipro-m.jpg" ,
+        mono: 6,
+        pb: 8,
+        prise_standart: 4497,
+        prise_discount: 3297,
+        prise_coupon: 3195,
+       },
+
+       {
+        title: "Акумуляторний оприскувач 12 N",
+        image: "https://static.dnipro-m.ua/cache/products/8964/catalog_origin_314479.jpg" ,
+        mono: 6,
+        pb: 8,
+        prise_standart: 2190,
+        prise_discount: 1698,
+        prise_coupon: 1596,
+       }
+
 
     ]
 
@@ -124,20 +67,57 @@ if (itemsDiv) {
         //спеціальний апостроф - англійська розкладка - біля кнопки 1 
         itemsDiv.innerHTML += 
         `
-        <div class = "item">
-        <h2>Вчитель № ${index+1} з ${itemsArray.length}</h2>
-        <p>${item.firstName} ${item.lastName}</p>
-        <p>Предмет: ${item.subject}</p>
-        <p><img src = "${item.photo}" class = "item-image"></p>
-        <p><a href = ${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>
-        <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank"
-        class = "price"> Написати </a></p>
         
+        <div class="item"> 
+
+        <!-- блок назва товару  -->
+        <div class="item-title">${item.title}</div>
+
+        <!-- блок зображення товару  -->
+        <div class="item-image">
+          <img src="${item.image}" class = "item-image" >
         </div>
+
+        <!-- блок з оплатою частинами -->
+        <div class="parts-pay">
+          <div><img src="img/lapka.png" alt="">${item.mono}</div>
+          <div><img src="img/pb.jpg" alt="">${item.pb}</div>
+        </div>
+
+        <!-- блок ціни -->
+        <div class="price">
+          <div><span style="text-decoration-line: line-through;">${item.prise_standart}</span> <sup>грн</sup></div>
+          <div><span>${item.prise_discount}</span> <sup>грн</sup></div>
+        </div>
+
+        <!-- блок бонусної ціни  -->
+        <div class="price bonus">
+          <div>ціна за купоном</div>
+          <div><span>${item.prise_coupon}</span> <sup>грн</sup></div>
+        </div>
+      </div>
+      
+     
+
+
+
+        
         `
 })
+
+
+{/* <div class = "item">
+<h2>Вчитель № ${index+1} з ${itemsArray.length}</h2>
+<p>${item.firstName} ${item.lastName}</p>
+<p>Предмет: ${item.subject}</p>
+<p><img src = "${item.photo}" class = "item-image"></p>
+<p><a href = ${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>
+<p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank"
+class = "price"> Написати </a></p>
+
+</div>
 // <h2>товар№${index}</h2>
-        // <p>${item}</p>
+        // <p>${item}</p> */}
 
     
     //вивід знайденого елементу
