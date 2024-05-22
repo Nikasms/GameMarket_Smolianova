@@ -10,44 +10,121 @@
 // ]
 
     let itemsArray = [
-       {
-        title: "Мотокоса 43",
-        image: "https://hotline.ua/img/tx/319/3193450945.jpg" ,
-        mono: 6,
-        pb: 8,
-        prise_standart: 5499,
-        prise_discount: 4497,
-        prise_coupon: 4395,
-       } ,
-       {
-        title: "Електричний тример 110",
-        image: "https://instrument.in.ua/content/images/44/480x480l50nn0/trimmer-elektricheskiy-dnipro-m-120-59521615082483.jpg" ,
-        mono: 6,
-        pb: 8,
-        prise_standart: 4497,
-        prise_discount: 3498,
-        prise_coupon: 3396,
-       },
+      {
+        
+          email: "23b_lam@liceum.ztu.edu.ua",
+          group: "10-Б 2",
+          name: "Лещенко Настя",
+          gameTitle: "dude настюшкі",
+          gameGithub: "https://github.com/Leschenko1001/Phaser2ndGame1?authuser=0",
+          gameGithubPages: "https://leschenko1001.github.io/Phaser2ndGame1/?authuser=0",
+          documentation: "https://drive.google.com/drive/folders/1CqBXUS5Rk1u8nhEq3_l7LYMjDalYqPgW?usp=classroom_web&authuser=0",
+          surveyForm: "https://forms.gle/aLmXJ7nEnjo6PGuZ8?authuser=0",
+          gameMarketGithub: "https://github.com/Leschenko1001/GameMarket_Leschenko",
+          gameMarketInitialDesign: "https://leschenko1001.github.io/GameMarket_Leschenko/?authuser=0",
+          gameMarketMarketPage: "https://leschenko1001.github.io/GameMarket_Leschenko/market.html?authuser=0",
+          gameMarketFinalPage: "https://leschenko1001.github.io/GameMarket_Leschenko/final/final.html?authuser=0",
+          authorPhoto: "Лещенко.jpg",
+          gamePhoto: "Лещенко_game.jpg"
+        },
+        {
+    email: "23b_lsa@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Лобода Софія",
+    gameTitle: "MOKOSH",
+    gameGithub: "https://github.com/Lobodass/project.git",
+    gameGithubPages: "https://lobodass.github.io/project/",
+    documentation: "https://drive.google.com/drive/folders/1-0efrhem62Vc__8Ir6qIFuatZJ_FjV50?usp=classroom_web&authuser=0",
+    surveyForm: "https://forms.gle/5DBw7bJ5v33uCqbt5",
+    gameMarketGithub: "https://github.com/Lobodass/siteinf.git",
+    gameMarketInitialDesign: "https://lobodass.github.io/siteinf/",
+    gameMarketMarketPage: "https://lobodass.github.io/siteinf/marcet.html?authuser=0",
+    gameMarketFinalPage: "https://lobodass.github.io/siteinf/final/final.html?authuser=0",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
+  {
+    email: "23b_nar@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Найбородін Артем",
+    gameTitle: "BestGame",
+    gameGithub: "https://github.com/Nayborodin/MyGame",
+    gameGithubPages: "https://nayborodin.github.io/MyGame/",
+    documentation: "https://drive.google.com/drive/folders/1G102lDz-nuYjqtOjxfLFwW2zB1R3BCgE",
+    surveyForm: "https://forms.gle/vitg4Rk5EUm3MZe38",
+    gameMarketGithub: "https://github.com/Nayborodin/GameMarket_Nayborodin",
+    gameMarketInitialDesign: "https://nayborodin.github.io/GameMarket_Nayborodin/",
+    gameMarketMarketPage: "https://nayborodin.github.io/GameMarket_Nayborodin/market.html",
+    gameMarketFinalPage: "https://nayborodin.github.io/GameMarket_Nayborodin/final/final.html",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
+  {
+    email: "23b_nod@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Нікітіч Олександр",
+    gameTitle: "",
+    gameGithub: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+    gameGithubPages: "https://sashanikitich.github.io/Phaser2ndGame-2/",
+    documentation: "https://docs.google.com/forms/d/e/1FAIpQLSdfx9mrL6L9s8P2Ratdn_TG0xqCTmyDBL3GfhUYM_27OnUmFA/viewform?usp=sharing",
+    surveyForm: "https://forms.gle/k4FbZfE31MSNpNoe6?authuser=0",
+    gameMarketGithub: "https://github.com/SashaNikitich/Phaser2ndGame-2",
+    gameMarketInitialDesign: "https://sashanikitich.github.io/Phaser2ndGame-2/",
+    gameMarketMarketPage: "",
+    gameMarketFinalPage: "",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
+  {
+    email: "23b_pos@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Продоус Олександр",
+    gameTitle: "SuperGame",
+    gameGithub: "https://github.com/Oleksandrpr321/-Phaser2ndGame.git",
+    gameGithubPages: "https://oleksandrpr321.github.io/-Phaser2ndGame/",
+    documentation: "https://drive.google.com/drive/folders/15dRiiBT-A6CAsZa0mXBR7k9_2edGz6bP?usp=drive_link",
+    surveyForm: "https://forms.gle/Y3SEVntm9Tr7znXu9",
+    gameMarketGithub: "https://github.com/Oleksandrpr321/-GameMarket_Prodous.git",
+    gameMarketInitialDesign: "https://oleksandrpr321.github.io/-GameMarket_Prodous/",
+    gameMarketMarketPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/market.html",
+    gameMarketFinalPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/final/final.html",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
+  {
+    email: "23b_pds@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Прокопчук Денис",
+    gameTitle: "Апокаліпсіс",
+    gameGithub: "https://github.com/Denis16543/Phaser2ndGame",
+    gameGithubPages: "https://denis16543.github.io/Phaser2ndGame/",
+    documentation: "https://drive.google.com/drive/folders/1KKIoePi4fkPjpWY4mAYEOL99wByIXX_t?usp=drive_link",
+    surveyForm: "https://forms.gle/yn4n8Gsu67vAtx8S9",
+    gameMarketGithub: "https://github.com/Denis16543/GameMarket",
+    gameMarketInitialDesign: "https://denis16543.github.io/GameMarket/",
+    gameMarketMarketPage: "https://denis16543.github.io/GameMarket_Prokopchuk/",
+    gameMarketFinalPage: "https://denis16543.github.io/GameMarket_Prokopchuk/final/final.html",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
+  {
+    email: "23b_syei@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Савицкьий Єгор",
+    gameTitle: "Falcon",
+    gameGithub: "https://github.com/HellcatFalcon/game.git",
+    gameGithubPages: "https://github.com/HellcatFalcon/Faclon/settings/pages",
+    documentation: "https://drive.google.com/drive/folders/1yCCzefMmd5BGGz9UBrljEXQWQThK9ImN?usp=drive_link",
+    surveyForm: "https://forms.gle/jAf9YW87aQqeoj4v6",
+    gameMarketGithub: "https://github.com/HellcatFalcon/GameMarket_Savitskiy.git",
+    gameMarketInitialDesign: "https://hellcatfalcon.github.io/GameMarket_Savitskiy/",
+    gameMarketMarketPage: "http://127.0.0.1:5500/market.html",
+    gameMarketFinalPage: "http://127.0.0.1:5500/final/final.html",
+    authorPhoto: "URL_до_фото_автора",
+    gamePhoto: "URL_до_фото_гри"
+  },
 
-       {
-        title: "Електрична газонокосарка 32",
-        image: "https://images.prom.ua/3772468812_w640_h640_gazonokosilka-elektricheskaya-dnipro-m.jpg" ,
-        mono: 6,
-        pb: 8,
-        prise_standart: 4497,
-        prise_discount: 3297,
-        prise_coupon: 3195,
-       },
-
-       {
-        title: "Акумуляторний оприскувач 12 N",
-        image: "https://static.dnipro-m.ua/cache/products/8964/catalog_origin_314479.jpg" ,
-        mono: 6,
-        pb: 8,
-        prise_standart: 2190,
-        prise_discount: 1698,
-        prise_coupon: 1596,
-       }
+        
 
 
     ]
@@ -71,11 +148,14 @@ if (itemsDiv) {
         <div class="item"> 
 
         <!-- блок назва товару  -->
-        <div class="item-title">${item.title}</div>
+        <div class="item-title">${item.gameTitle}</div>
+        <div class="item-title">${item.name},${item.group}, ${item.email}</div>
+
 
         <!-- блок зображення товару  -->
         <div class="item-image">
-          <img src="${item.image}" class = "item-image" >
+          <img src="img/${item. authorPhoto}" class = "item-image" >
+          <img src="img/${item. gamePhoto}" class = "item-image" >
         </div>
 
         <!-- блок з оплатою частинами -->
@@ -93,7 +173,8 @@ if (itemsDiv) {
         <!-- блок бонусної ціни  -->
         <div class="price bonus">
           <div>ціна за купоном</div>
-          <div><span>${item.prise_coupon}</span> <sup>грн</sup></div>
+          <div><span>${item.gameGithub}</span> <sup></sup></div>
+         
         </div>
       </div>
       

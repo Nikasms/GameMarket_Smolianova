@@ -10,7 +10,7 @@ body{
 }
 
 content {
-    width: 580px;
+    width: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,9 @@ content {
 
 /* блок зображення товару */
 .item-image {
-    height: 260px;
+    height: 300px;
+    display: flex;
+    gap: 15px;
    
     
 }
