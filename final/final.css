@@ -3,7 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #b4a7f7;
+    background-color: #e08fcf;
     display: flex;
     justify-content: center;
 }
@@ -20,7 +20,7 @@ content {
     width: auto;
     padding: 10px;
     margin-top: 20px;
-    background: rgb(101, 75, 205);
+    background: rgb(150, 131, 225);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
     color: white;
@@ -74,7 +74,7 @@ img {
 }
 
 .links a {
-    background: #6b69d8;
+    background: #e8a8c8;
     color: white;
     padding: 10px;
     margin: 5px 0;
@@ -85,5 +85,5 @@ img {
 }
 
 .links a:hover {
-    background: #464ceb;
+    background: #ef92d8;
 }

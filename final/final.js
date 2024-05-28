@@ -31,7 +31,7 @@
     gameMarketMarketPage: "https://lobodass.github.io/siteinf/marcet.html?authuser=0",
     gameMarketFinalPage: "https://lobodass.github.io/siteinf/final/final.html?authuser=0",
     authorPhoto: "Лобода.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "Лобода_game.png"
   },
   {
     email: "23b_nar@liceum.ztu.edu.ua",
@@ -47,7 +47,7 @@
     gameMarketMarketPage: "https://nayborodin.github.io/GameMarket_Nayborodin/market.html",
     gameMarketFinalPage: "https://nayborodin.github.io/GameMarket_Nayborodin/final/final.html",
     authorPhoto: "Найбородін.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "Найбородін_game.jpeg"
   },
   {
     email: "23b_nod@liceum.ztu.edu.ua",
@@ -63,7 +63,7 @@
     gameMarketMarketPage: "",
     gameMarketFinalPage: "",
     authorPhoto: "Нікітіч.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "Нікітіч_game.png"
   },
   {
     email: "23b_pos@liceum.ztu.edu.ua",
@@ -79,7 +79,7 @@
     gameMarketMarketPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/market.html",
     gameMarketFinalPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/final/final.html",
     authorPhoto: "Продоус.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "Продоус_game.png"
   },
   {
     email: "23b_pds@liceum.ztu.edu.ua",
@@ -95,7 +95,7 @@
     gameMarketMarketPage: "https://denis16543.github.io/GameMarket_Prokopchuk/",
     gameMarketFinalPage: "https://denis16543.github.io/GameMarket_Prokopchuk/final/final.html",
     authorPhoto: "Прокопчук.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "Прокопчук_game.png"
   },
   {
     email: "23b_syei@liceum.ztu.edu.ua",
@@ -111,8 +111,109 @@
     gameMarketMarketPage: "http://127.0.0.1:5500/market.html",
     gameMarketFinalPage: "http://127.0.0.1:5500/final/final.html",
     authorPhoto: "Савицький.jpg",
-    gamePhoto: "URL_до_фото_гри"
+    gamePhoto: "_game.jpg"
   },
+  {
+    email: "223b_stv@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Саух Тимофій",
+    gameTitle: "якісь колодязі",
+    gameGithub: "https://github.com/imnottimaw/Phaser2ndGame",
+    gameGithubPages: "https://imnottimaw.github.io/Phaser2ndGame/",
+    documentation: "https://drive.google.com/drive/folders/1YvPNGVqCD6BBzWr4azgHLxwar91rtT6H?usp=sharing",
+    surveyForm: "https://forms.gle/a58ghZiZdVJfZVLg6",
+    gameMarketGithub: "https://github.com/imnottimaw/GameMarket_Saukh",
+    gameMarketInitialDesign: "https://imnottimaw.github.io/GameMarket_Saukh/",
+    gameMarketMarketPage: "https://imnottimaw.github.io/GameMarket_Saukh/final/final.html",
+    gameMarketFinalPage: "https://imnottimaw.github.io/GameMarket_Saukh/",
+    authorPhoto: "Саух.jpg",
+    gamePhoto: "Саух_game.png"
+  },
+
+  {
+    email: "23b_som@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Скримінська Оксана",
+    gameTitle: "",
+    gameGithub: "https://github.com/skryminska/Phaser2ndGame",
+    gameGithubPages: "https://skryminska.github.io/Phaser2ndGame/",
+    documentation: "https://docs.google.com/document/d/19B0k9awxwUCrPf3vL68ekIFYvMzU3q-tIg8Q3hMjbHQ/edit?usp=classroom_web&authuser=0",
+    surveyForm: "https://drive.google.com/drive/folders/12oLl0iIBZfpF77V-npksuc8hWW8cyCnd?usp=classroom_web&authuser=0",
+    gameMarketGithub: "https://github.com/skryminska/GameMarket_Skryminska",
+    gameMarketInitialDesign: "https://skryminska.github.io/GameMarket_Skryminska/",
+    gameMarketMarketPage: "",
+    gameMarketFinalPage: "",
+    authorPhoto: "Скримінська.jpg",
+    gamePhoto: "Скримінська.png"
+  },
+
+  {
+    email: "23b_sns@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Смолянова Ніка",
+    gameTitle: "Exting way",
+    gameGithub: "https://github.com/Nikasms/-Phaser2ndGame.git",
+    gameGithubPages: "https://nikasms.github.io/-Phaser2ndGame/",
+    documentation: "https://drive.google.com/drive/folders/1oNBngdHeURy6zi-iwPPfUc8XsuIx5Ekk",
+    surveyForm: "https://forms.gle/MU9K5RhTwm4SJAXeA",
+    gameMarketGithub: "https://github.com/Nikasms/GameMarket_Smolianova.git",
+    gameMarketInitialDesign: "https://nikasms.github.io/GameMarket_Smolianova/",
+    gameMarketMarketPage: "https://nikasms.github.io/GameMarket_Smolianova/market.html",
+    gameMarketFinalPage: "https://nikasms.github.io/GameMarket_Smolianova/final/final.html",
+    authorPhoto: "Смолянова.jpg",
+    gamePhoto: "Смолянова_game.png"
+  },
+
+  {
+    email: "23b_svyu@liceum.ztu.edu.ua",
+    group: "10-Б 2",
+    name: "Соколовська Вікторія",
+    gameTitle: "Космічне сміття",
+    gameGithub: "https://github.com/VikaSokol/Space-Trash-",
+    gameGithubPages: "https://vikasokol.github.io/Space-Trash-/",
+    documentation: "https://drive.google.com/drive/folders/10W9NbLTXlXtVCFWZfdoyVVfpVku7qJwA?usp=drive_link",
+    surveyForm: "https://drive.google.com/drive/folders/10W9NbLTXlXtVCFWZfdoyVVfpVku7qJwA?usp=drive_link",
+    gameMarketGithub: "https://github.com/VikaSokol/GameMarket_Sokolovska",
+    gameMarketInitialDesign: "https://vikasokol.github.io/Space-Trash-/",
+    gameMarketMarketPage: "https://vikasokol.github.io/Space-Trash-/",
+    gameMarketFinalPage: "https://vikasokol.github.io/market/market.html?authuser=0",
+    authorPhoto: "Соколовська.jpg",
+    gamePhoto: "Соколовська_game.png"
+  },
+
+{
+  email: "23b_tdp@liceum.ztu.edu.ua ",
+  group: "10-Б 2",
+  name: "Терський Дмитро",
+  gameTitle: "",
+  gameGithub: "https://github.com/dmitro321w/GameMarket_-/tree/main",
+  gameGithubPages: "",
+  documentation: "https://drive.google.com/drive/folders/1izA5dAz4VlfRCffwQCXKGeLpKX3qpDGA?usp=drive_link",
+  surveyForm: "",
+  gameMarketGithub: "",
+  gameMarketInitialDesign: "",
+  gameMarketMarketPage: "",
+  gameMarketFinalPage: "",
+  authorPhoto: "Терський.jpg",
+  gamePhoto: "_game.jpg"
+},
+
+{
+  email: "23b_shmv@liceum.ztu.edu.ua ",
+  group: "10-Б 2",
+  name: "Шапіренко Максим",
+  gameTitle: "Roborun",
+  gameGithub: "https://github.com/Shapirenko/Roborun",
+  gameGithubPages: "https://shapirenko.github.io/Roborun/",
+  documentation: "https://drive.google.com/drive/folders/1j-uM3IKdJUH3IbqpNKxAvkDJvP_XrunA?usp=classroom_web&authuser=0",
+  surveyForm: "https://forms.gle/Ty19Ttoo6CWEGdp78?authuser=0",
+  gameMarketGithub: "https://github.com/Shapirenko/GameMarket_Shapirenko?authuser=0",
+  gameMarketInitialDesign: "https://shapirenko.github.io/GameMarket_Shapirenko/?authuser=0",
+  gameMarketMarketPage: "https://shapirenko.github.io/GameMarket_Shapirenko/market.html?hl=ru&authuser=0",
+  gameMarketFinalPage: "https://shapirenko.github.io/GameMarket_Shapirenko/final/final.html?authuser=0",
+  authorPhoto: "Шапіренко.jpg",
+  gamePhoto: "Шапіренко_game.png"
+},
 
         
 
@@ -133,7 +234,7 @@ if (itemsDiv) {
           <div class="item-title">${item.gameTitle}</div>
           <p>${item.name} ${item.group} ${item.email}</p>
           <div class="content">
-              <img src="img/${item.gameTitle}" alt="Game Image">
+              <img src="img/${item.gamePhoto}" alt="Game Image">
               <img src="img/${item.authorPhoto}" alt="Author Image">
           </div>
           <div class="links">
