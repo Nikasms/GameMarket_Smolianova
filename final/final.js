@@ -27,6 +27,7 @@
           authorPhoto: "Лещенко.jpg",
           gamePhoto: "Лещенко_game.jpg"
         },
+
         {
     email: "23b_lsa@liceum.ztu.edu.ua",
     group: "10-Б 2",
@@ -40,7 +41,7 @@
     gameMarketInitialDesign: "https://lobodass.github.io/siteinf/",
     gameMarketMarketPage: "https://lobodass.github.io/siteinf/marcet.html?authuser=0",
     gameMarketFinalPage: "https://lobodass.github.io/siteinf/final/final.html?authuser=0",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Лобода.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
   {
@@ -56,7 +57,7 @@
     gameMarketInitialDesign: "https://nayborodin.github.io/GameMarket_Nayborodin/",
     gameMarketMarketPage: "https://nayborodin.github.io/GameMarket_Nayborodin/market.html",
     gameMarketFinalPage: "https://nayborodin.github.io/GameMarket_Nayborodin/final/final.html",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Найбородін.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
   {
@@ -72,7 +73,7 @@
     gameMarketInitialDesign: "https://sashanikitich.github.io/Phaser2ndGame-2/",
     gameMarketMarketPage: "",
     gameMarketFinalPage: "",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Нікітіч.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
   {
@@ -88,7 +89,7 @@
     gameMarketInitialDesign: "https://oleksandrpr321.github.io/-GameMarket_Prodous/",
     gameMarketMarketPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/market.html",
     gameMarketFinalPage: "https://oleksandrpr321.github.io/-GameMarket_Prodous/final/final.html",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Продоус.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
   {
@@ -104,7 +105,7 @@
     gameMarketInitialDesign: "https://denis16543.github.io/GameMarket/",
     gameMarketMarketPage: "https://denis16543.github.io/GameMarket_Prokopchuk/",
     gameMarketFinalPage: "https://denis16543.github.io/GameMarket_Prokopchuk/final/final.html",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Прокопчук.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
   {
@@ -120,7 +121,7 @@
     gameMarketInitialDesign: "https://hellcatfalcon.github.io/GameMarket_Savitskiy/",
     gameMarketMarketPage: "http://127.0.0.1:5500/market.html",
     gameMarketFinalPage: "http://127.0.0.1:5500/final/final.html",
-    authorPhoto: "URL_до_фото_автора",
+    authorPhoto: "Савицький.jpg",
     gamePhoto: "URL_до_фото_гри"
   },
 
@@ -172,7 +173,7 @@ if (itemsDiv) {
 
         <!-- блок бонусної ціни  -->
         <div class="price bonus">
-          <div>ціна за купоном</div>
+          <div></div>
           <div><span>${item.gameGithub}</span> <sup></sup></div>
          
         </div>
